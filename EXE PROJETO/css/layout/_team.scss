@@ -1,0 +1,59 @@
+.team {
+	font-size: 1rem;
+	padding-top: 5rem;
+	text-align: center;
+
+	h2 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		@include breakpoint(811px) {
+			flex-wrap: wrap;
+		}
+	}
+
+	&__item {
+		width: 25%;
+		flex: 0 0 auto;
+		@include breakpoint(811px) {
+			width: 50%;
+		}
+
+		&-wrapper {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin-top: 2.5rem;
+		}
+
+		a {
+			cursor: pointer;
+		}
+
+		img {
+			width: 55%;
+			min-width: 130px;
+			height: 12em;
+			border-radius: 50%;
+			margin-bottom: 2em;
+		}
+
+		h3 {
+			font-size: 1.25em;
+		}
+
+		p {
+			font-size: 1em;
+		}
+	}
+}

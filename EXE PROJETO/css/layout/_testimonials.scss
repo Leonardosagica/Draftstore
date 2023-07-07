@@ -1,0 +1,33 @@
+.testimonials {
+	font-size: 1rem;
+	padding: 8rem 0;
+	text-align: center;
+	background: $background-light;
+
+	blockquote {
+		font-size: 1.5em;
+		font-style: italic;
+	}
+
+	.blockquote-author {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 2rem;
+
+		img {
+			border-radius: 50%;
+		}
+
+		p {
+			margin-left: 1rem;
+
+			span {
+				font-size: 1.25em;
+				color: #235bb4;
+				font-weight: 700;
+				margin: 0 0.5rem;
+			}
+		}
+	}
+}

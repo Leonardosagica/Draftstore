@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/main.css" />
+		<title>DraftStore</title>
+	</head>
+
+	<body>
+		<header>
+			<!--navigation-->
+
+			<nav class="navbar">
+				<div class="container">
+					<div class="navbar__wrapper">
+						<div class="logo">
+							<h2>DraftStore</h2>
+						</div>
+
+						<ul class="navbar__menu">
+							<li>
+								<a href="#about">About</a>
+							</li>
+							<li>
+								<a href="#team">Sections</a>
+							</li>
+							<li>
+								<a href="#services">Services</a>
+							</li>
+							<li>
+								<a href="#blog">Reviews</a>
+							</li>
+						</ul>
+
+						<div class="navbar__hamburger">
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Hero Slider-->
+			<section id="hero" class="hero">
+				<div class="slider">
+					<div class="slider__item active">
+						<div class="slider__content">
+							<p>Best reviews of the market</p>
+							<h1>JOY</h1>
+							<a href="#">View More</a>
+						</div>
+					</div>
+					<div class="slider__item">
+						<div class="slider__content">
+							<p>Innovative Ideias</p>
+							<h1>CREATIVITY</h1>
+							<a href="#">View More</a>
+						</div>
+					</div>
+					<div class="slider__item">
+						<div class="slider__content">
+							<p>Embrace the new</p>
+							<h1>UNIQUE</h1>
+							<a href="#">View More</a>
+						</div>
+					</div>
+				</div>
+				<!-- sliders Buttons -->
+				<div class="slider__btns">
+					<div class="btns__wrapper">
+						<svg id="prev" class="btns__left">
+							<polyline points="19.6,42.1 4.3,26.6 19.6,10.8"></polyline>
+							<line x1="34.5" y1="53" x2="34.5" y2="0"></line>
+						</svg>
+
+						<svg id="next" class="btns__right">
+							<polyline points="15.4,10.9 30.7,26.4 15.4,42.2"></polyline>
+							<line x1="0.5" y1="0" x2="0.5" y2="53"></line>
+						</svg>
+					</div>
+				</div>
+			</section>
+
+			<!-- About section -->
+			<section id="about" class="about">
+				<h2>Since 2000 changing lives <br />always for a better choice</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+					Illum. <br />premium products or services.
+				</p>
+				<a class="button cta-primary" href="#">Read More</a>
+
+				<div class="about__background">
+					<div class="container">
+						<div class="about__articles-wrapper">
+							<div class="about__article">
+								<!-- sem div para wrapper a tag nao fica img-fluid-->
+								<div class="about__container-img">
+									<img src="assets/shirt.jpg" alt="about image" />
+								</div>
+
+								<div class="about__content left">
+									<h3>Best Seller Shirt</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+									<button class="cart-add-button">
+										<span>Add to cart</span>
+										<div class="cart">
+											<svg viewBox="0 0 36 26">
+												<polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+												<polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+											</svg>
+										</div>
+									</button>
+								</div>
+							</div>
+
+							<div class="about__article">
+								<div class="about__content right">
+									<h3>Best Seller pant</h3>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate,
+										quibusdam expedita, maiores eaque quisquam.
+									</p>
+
+									<button class="cart-add-button">
+										<span>Add to cart</span>
+										<div class="cart">
+											<svg viewBox="0 0 36 26">
+												<polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+												<polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+											</svg>
+										</div>
+									</button>
+								</div>
+								<div class="about__container-img">
+									<img src="assets/shirt.jpg" alt="about image" class="reverse-order" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Team section -->
+			<section id="team" class="team">
+				<h2>Sections</h2>
+				<p>For sure some of these sections are for you</p>
+
+				<div class="container">
+					<div class="team__wrapper">
+						<div class="team__item">
+							<div class="team__item-wrapper">
+								<a href="#">
+								<img src="assets/menSection.jpg" alt="Men Section" />
+								</a>
+								<h3>Men</h3>
+								<p>Shirts and jeans</p>
+							</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item-wrapper">
+								<a href="">
+								<img src="assets/womenSection.jpg" alt="Women Section" />
+								</a>
+								<h3>Women</h3>
+								<p>Shirts, dresses and more</p>
+							</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item-wrapper">
+								<a href="">
+								<img src="assets/SportSection.jpg" alt="Sports Section"/>
+								</a>
+								<h3>Sports</h3>
+								<p>All kind of sport fashion</p>
+							</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item-wrapper">
+								<a href="">
+								<img src="assets/KidSection.jpg" alt="Kids sections" />
+								</a>
+								<h3>Kids</h3>
+								<p>Fun clothes</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Services Section-->
+			<section id="services" class="services">
+				<div class="container">
+						
+					<div class="services__wrapper">
+					
+					<h2>Our Brands unique services </h2>
+						<div class="services__column services__column--left">
+							<article class="services__item">
+								<div class="services__icon">
+									<i class="fa-solid fa-leaf"></i>
+								</div>
+								<h3>Green work</h3>
+								<p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+							</article>
+
+							<article class="services__item">
+								<div class="services__icon">
+									<i class="fa-brands fa-cotton-bureau"></i>
+								</div>
+								<h3>Arabic Fabric</h3>
+								<p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+							</article>
+						</div>
+
+						<div class="services__column services__column--right">
+							<article class="services__item">
+								<div class="services__icon">
+									<i class="fa-brands fa-gratipay"></i>
+								</div>
+								<h3>Community aid</h3>
+								<p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+							</article>
+
+							<article class="services__item">
+								<div class="services__icon">
+									<i class="fa-brands fa-medapps"></i>
+								</div>
+								<h3>Renewable Energy</h3>
+								<p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="testimonials" class="testimonials">
+				<div class="container">
+					<!-- using -->
+					<blockquote>
+						"Working with Start Bootstrap templates has saved me tons of
+						<br />development time when building new projects! Starting with a <br />Bootstrap template just makes things easier!"
+					</blockquote>
+					<div class="blockquote-author">
+						<img src="https://dummyimage.com/40x40/b5b5b5/404040" alt="testimonial author" />
+						<p>Tom Ato<span>/</span>Ceo, Pomodoro</p>
+					</div>
+				</div>
+			</section>
+
+			<!--Blog Section-->
+			<section id="blog" class="blog">
+				<div class="container">
+					<h2>Reviews for our costumers</h2>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit<br />
+						ratione dicta mollitia. Officiis ad.
+					</p>
+
+					<div class="blog__wrapper">
+						<!-- blog post 01-->
+						<div class="blog__card">
+							<article class="blog__card-wrapper">
+								<div class="blog__card-image">
+									<img src="https://dummyimage.com/600x350/d4d4d4/737373" alt="blog image" />
+								</div>
+								<span>New</span>
+								<h3>Review post title</h3>
+								<div class="blog__card-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, molestiae.</p>
+								</div>
+								<div class="blog__card-footer">
+									<img src="https://dummyimage.com/40x40/b5b5b5/404040" alt="author image" />
+									<div class="blog__author">
+										<p>Kelly Rowan</p>
+										<p>March 12, 2022 - 6 min read</p>
+									</div>
+								</div>
+							</article>
+						</div>
+						<!-- blog post 02-->
+						<div class="blog__card">
+							<article class="blog__card-wrapper">
+								<div class="blog__card-image">
+									<img src="https://dummyimage.com/600x350/ababab/737373" alt="blog image" />
+								</div>
+
+								<span>New</span>
+								<h3>Review post title</h3>
+								<div class="blog__card-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, molestiae.</p>
+								</div>
+								<div class="blog__card-footer">
+									<img src="https://dummyimage.com/40x40/b5b5b5/404040" alt="author image" />
+									<div class="blog__author">
+										<p>Kelly Rowan</p>
+										<p>March 12, 2022 - 6 min read</p>
+									</div>
+								</div>
+							</article>
+						</div>
+						<!-- blog post 03-->
+						<div class="blog__card">
+							<article class="blog__card-wrapper">
+								<div class="blog__card-image">
+									<img src="https://dummyimage.com/600x350/8f8f8f/5e5e5es" alt="blog image" />
+								</div>
+
+								<span>New</span>
+								<h3>Review post title</h3>
+								<div class="blog__card-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, molestiae.</p>
+								</div>
+								<div class="blog__card-footer">
+									<img src="https://dummyimage.com/40x40/b5b5b5/404040" alt="author image" />
+									<div class="blog__author">
+										<p>Kelly Rowan</p>
+										<p>March 12, 2022 - 6 min read</p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<p>Copyright &#169; Your Website 2022</p>
+					<ul>
+						<li><a href="#" target="_blank">Privacy</a></li>
+						<li><a href="#" target="_blank">Terms</a></li>
+						<li><a href="#" target="_blank">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- scripts -->
+		<script src="https://kit.fontawesome.com/aaed04d9a4.js" crossorigin="anonymous"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
